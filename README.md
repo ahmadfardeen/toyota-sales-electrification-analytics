@@ -78,33 +78,39 @@ Regional taxonomies differ across source tables and were reconciled where requir
 Vehicle specification records represent vehicle configurations rather than sales volume.
 Vehicle specifications are used as contextual product data rather than Toyota's official sales source.
 The project does not attempt to analyze every available column or vehicle specification.
-Project Structure
-data/
+## Project Structure
+
+```text
+toyota-sales-electrification-analytics/
+│
 ├── README.md
-└── toyota_clean.xlsx
+│
+├── data/
+│   ├── README.md
+│   └── toyota_clean.xlsx
+│
+├── python/
+│   ├── README.md
+│   ├── sales_analysis.ipynb
+│   ├── sales_extraction.ipynb
+│   └── toyotaxlsx_cleaning.ipynb
+│
+├── sql/
+│   ├── analysis_queries.sql
+│   ├── data_load.sql
+│   └── database_schema.sql
+│
+└── powerbi/
+    ├── README.md
+    └── Toyota_Sales_Electrification_Dashboard.png
+```
 
-sql/
-├── database_schema.sql
-├── data_load.sql
-└── analysis_queries.sql
+## Dashboard Preview
 
-python/
-└── data_preparation.ipynb
+![Toyota Sales & Electrification Dashboard](powerbi/Toyota_Sales_Electrification_Dashboard.png)
 
-powerbi/
-└── Toyota_Sales_Electrification_Analytics.pbix
-
-dashboard/
-└── Toyota_Dashboard.png
-
-documentation/
-└── project_notes.md
 Skills Demonstrated
 
 SQL | MySQL | Python | Pandas | Power BI | DAX |
 Data Cleaning | Data Modeling | Data Visualization |
 Business Analysis
-
-## Dashboard Preview
-
-![Toyota Sales & Electrification Dashboard](powerbi/Toyota_Sales_Electrification_Dashboard.png)
