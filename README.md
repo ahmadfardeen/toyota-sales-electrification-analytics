@@ -105,3 +105,6 @@ SQL | MySQL | Python | Pandas | Power BI | DAX |
 Data Cleaning | Data Modeling | Data Visualization |
 Business Analysis
 
+## Dashboard Preview
+
+![Toyota Sales & Electrification Dashboard](powerbi/Toyota_Sales_Electrification_Dashboard.png)
