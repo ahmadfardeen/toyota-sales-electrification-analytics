@@ -106,7 +106,11 @@ toyota-sales-electrification-analytics/
 ```
 
 ## Dashboard Preview
+### 🎥 Interactive Power BI Dashboard Demo
 
+[▶ Watch the Toyota Dashboard Demo](powerbi/Toyota_Dashboard_Demo_Portfolio.mp4)
+
+Explore Toyota's global sales KPIs, regional performance, electrification trends, and interactive filters.
 ![Toyota Sales & Electrification Dashboard](powerbi/Toyota_Sales_Electrification_Dashboard.png)
 
 Skills Demonstrated
